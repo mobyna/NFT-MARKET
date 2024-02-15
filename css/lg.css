@@ -1,0 +1,80 @@
+/*main*/
+main{
+    padding: 0 120px;
+}
+
+ .card .card__photo:last-child{
+    display: none;
+}
+.hero .hero__text .hero__title{
+    font-size: 50px;
+}
+.hero .hero__text .hero__paragraph{
+    font-size: 22px;
+}
+
+/*Trending Collection*/
+.trending .trend__cards .trend__card:nth-child(3){
+    display: none;
+}
+
+/*Top creators*/
+.creators .group .creator__none{
+    display: none;
+    
+}
+.creators .group .creator{
+    flex-flow: row nowrap;
+
+}
+.creators .group {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.group .creator .creator__nfo .creator__sale .creator__total{
+    margin-left: 22px;
+}
+.group .creator .creator__img .number{
+    left: -2px;
+}
+/* mushroom */
+.mushroom{
+    padding: 50px 120px;
+}
+/* ending */
+.ending{
+    padding: 0 120px;
+}
+/*Join our weekly digest*/
+
+.ending .digest{
+    flex-flow: column;
+    background-color: transparent;
+}
+/* footer */
+.market{
+    padding: 0 120px;
+    flex-flow: column;
+    gap: 30px;
+}
+.market .join .digest__email{
+    background-color: transparent;
+    flex-flow: column nowrap;
+}
+.market .join .digest__email a{
+    width: 100%;
+    padding: 18px 20px;
+    justify-content: center;
+}
+.market .join .digest__email span{
+    background-color: #FFF;
+    width: 100%;
+    padding: 18px 25px;
+    border-radius: 20px
+}
+.nft__market{
+    padding: 0 120px;
+}
+.line{ 
+    width: calc(100% - 2 * 120px);
+}

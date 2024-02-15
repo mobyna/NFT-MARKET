@@ -1,0 +1,113 @@
+/*header*/
+header{
+    padding: 15px 50px;
+}
+header .menu{
+    display: none;
+}
+header .openMenu{
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+/*main*/
+main{
+    padding: 0 72px;
+}
+/*hero*/
+.hero .hero__text .hero__title{
+    font-size: 38px;
+}
+.hero .hero__text .hero__paragraph{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.hero .hero__text .hero__link{
+    margin-bottom: 20px;
+}
+.hero .hero__text .hero__stats .hero__stats__item .hero__stats__item__number{
+    font-size: 22px;
+}
+.hero .hero__text .hero__stats .hero__stats__item .hero__stats__item__name{
+    font-size: 16px;
+}
+.hero .hero__banner .hero__banner__img{
+    width: 100%;
+}
+.hero .hero__banner .hero__banner__img img{
+    aspect-ratio: 3.3/2.2;
+}
+/*Trending Collection*/
+.trending .trend__cards .trend__card:nth-child(2){
+    display: none;
+}
+/*Top creators*/
+.creators .group .creator_none{
+    display: none;
+    
+}
+.creators .group .creator{
+    flex-flow: row nowrap;
+
+}
+.creators .group {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.group .creator .creator__nfo .creator__sale .creator__total{
+    margin-left: 22px;
+}
+.group .creator .creator__img .number{
+    left: -2px;
+}
+.creators .top .creat_butt{
+    display: none;
+}
+.creators .creat__butt{
+    width: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+/*Browse Categories*/
+.browse .catagory{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 100px;
+}
+
+/*Discover More NFTs*/
+
+.discover .mores .none__more{
+    display: none;
+}
+
+/* mushroom */
+.ending .mushroom{
+    padding: 50px 72px;
+}
+/* ending */
+.ending{
+    padding: 0 72px;
+}
+.ending .works .work{
+    flex-flow: column nowrap;
+}
+.ending .works .work .card__work{
+    flex-flow: row;
+}
+.ending .works .work .center__work{
+    padding: 35px 26px;
+}
+
+/* footer */
+.market{
+    padding: 0 72px;
+}
+.nft__market{
+    padding: 0 72px;
+}
+.line{ 
+    width: calc(100% - 2 * 72px);
+}

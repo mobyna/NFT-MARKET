@@ -1,0 +1,32 @@
+/*main*/
+main{
+    padding: 0 40px;
+}
+/*Discover More NFTs*/
+
+.discover .mores .none__more{
+    display:block;
+}
+.discover .mores{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: space-between;
+    gap: 26px;
+    margin-top: 50px;
+}
+/* ending */
+.ending{
+    padding: 0 40px;
+}
+/* footer */
+.market{
+    padding: 0 40px;
+}
+.nft__market{
+    padding: 0 40px;
+}
+.line{ 
+    width: calc(100% - 2 * 40px);
+}

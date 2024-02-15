@@ -1,0 +1,43 @@
+/*main*/
+main{
+    padding: 0 90px;
+}
+/* mushroom */
+.mushroom{   
+    padding: 50px 90px;
+}
+/* ending */
+.ending{
+    padding: 0 90px;
+}
+
+/*Join our weekly digest*/
+
+.ending .digest .right{
+    flex-flow: column;
+}
+.ending .digest .right .digest__email{
+    background-color: transparent;
+    flex-flow: column nowrap;
+}
+.ending .digest .right .digest__email a{
+    width: 100%;
+    padding: 18px 20px;
+    justify-content: center;
+}
+.ending .digest .right .digest__email span{
+    background-color: #FFF;
+    width: 100%;
+    padding: 18px 25px;
+    border-radius: 20px
+}
+/* footer */
+.market{
+    padding: 0 90px;
+}
+.nft__market{
+    padding: 0 90px;
+}
+.line{ 
+    width: calc(100% - 2 * 90px);
+}

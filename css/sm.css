@@ -1,0 +1,114 @@
+header{
+    padding: 15px 30px;
+}
+.hero{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: column;
+    gap: 20px;
+}
+.hero__link{
+    display: none;
+}
+.hero .her__text .hero__stats{
+    display: none;
+}
+.hero .her__text .hero__stats .hero__stats__item{
+    display: none;
+}
+.hero__stats__item__number ,.hero__stats__item__name{
+    display: none;
+}
+.herolinkbtnsecondary{
+    width: 100%;
+}
+.hero__link__second{
+    margin-top: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    background: var(--Call-to-Action);
+    display: inline-flex;
+    height: 60px;
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    /* H5 - Work Sans */
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    transition: all 300ms linear;
+}
+.statssecond{
+    display: block;
+}
+.hero .hero__stats__second{
+    width: 100%;
+    display: flex;
+    column-gap:30px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .hero__stats__second .hero__stats__item__second{
+    display: flex;
+    flex-flow: column;
+}
+.hero .hero__stats__second .hero__stats__item__second .hero__stats__item__number__second{
+    display: block;
+    color:  #FFF;
+    /* H4 - Space Mono */
+    font-family: "Space Mono",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.hero .hero__stats__second .hero__stats__item__second .hero__stats__item__name__second{
+    display: block;
+    color: #FFF;
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/*main*/
+main{
+    padding: 0 100px;
+}
+/* mushroom */
+.mushroom{
+    padding: 50px 100px;
+}
+/* ending */
+.ending{
+    padding: 0 100px;
+}
+.ending .works .work{
+    flex-flow:column nowrap;
+}
+.ending .works .work .card__work{
+    flex-flow: row;
+}
+/* footer */
+.market{
+    padding: 0 100px;
+}
+.nft__market{
+    padding: 0 100px;
+}
+.line{ 
+    width: calc(100% - 2 * 100px);
+}
