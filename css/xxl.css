@@ -591,6 +591,9 @@ main{
     margin-top: 100px;
     
 }
+.mushroom .mushwit{
+    display: none;
+}
 .mushroom .mush .shroom{
     background-color: var(--Background--Secondary);
     border-radius: 20px;

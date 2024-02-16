@@ -90,7 +90,17 @@ main{
 }
 /* mushroom */
 .mushroom{
-    padding: 50px 100px;
+    padding: 50px 15px;
+    flex-flow: column nowrap;
+    align-items: start;
+}
+.mushroom .mush .white{
+    display: none;
+}
+.mushroom .mushwit{
+    width: 100%;
+    padding: 22px 0;
+    display: block;
 }
 /* ending */
 .ending{
